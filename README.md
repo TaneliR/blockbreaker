@@ -1,2 +1,2 @@
-# blockbreaker
-Practice project for Unity
+# Block Breaker!
+Arkanoid -style practice project for Unity
