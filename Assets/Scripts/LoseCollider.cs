@@ -7,7 +7,7 @@ public class LoseCollider : MonoBehaviour {
     
     void OnTriggerEnter2D (Collider2D trigger)
     {
-        SceneManager.LoadScene(2);      
+        SceneManager.LoadScene("Lose Screen");      
     }
     void OnCollisionEnter2D (Collision2D collision)
     {
