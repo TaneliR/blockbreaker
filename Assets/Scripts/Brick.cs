@@ -43,11 +43,13 @@ public class Brick : MonoBehaviour {
         {
             blocksLeft--;
             levelManager.BrickDestroyed();
+            levelManager.PlayBrickSound(true);
             Destroy(gameObject);      
         }
         else
         {
             LoadSprites();
+            levelManager.PlayBrickSound(false);
         }
     }
 
